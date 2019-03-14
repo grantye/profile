@@ -44,7 +44,7 @@ a {
   border-radius: 7px;
   display: block;
   width: 150px;
-  margin: 18px 0px 1px 220px;
+  margin: auto;
 }
 
 .button-blue:hover{
