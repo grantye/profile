@@ -52,7 +52,7 @@ a {
 }
 
 ul.inline-list {
-  padding-left: 20px;
+  padding-left:  0;
 }
 
 .inline-list li {
@@ -119,8 +119,12 @@ ul.inline-list {
   margin: 0;
 }
 
-.ul{
-  margin-left: 120px
+ul.ul{
+  text-align: center;
+  padding-inline-start: 0;
+  margin-left: 0px;
+  display: block;
+  list-style-type: none;
 }
 
 @media (max-width: 960px) {
