@@ -35,7 +35,6 @@ a {
   width: 100px;
 }
 
-
 .button-blue {
   text-decoration: none;
   background-color: #C4820E;
@@ -52,22 +51,66 @@ a {
   color: #FFFFFF;
 }
 
-.inline-list {
-  padding: 0;
+ul.inline-list {
+  padding-left:  0;
 }
 
 .inline-list li {
   display: inline-block;
-  margin: auto;
+}
+
+.card-skills {
+  justify-content: space-between;
+}
+
+.card-skills img{
+  height: 80px;
+}
+
+#ruby{
+  height: 36px;
+  padding-bottom: 22px;
+  padding-right: 40px;
+}
+
+#ruby-word{
+  padding-right: 35px;
+}
+
+#sql {
+  height: 45px;
+  padding-bottom: 18px;
+  padding-right: 20px;
+}
+
+#html-word{
+  padding-left: 3px;
+}
+
+#css-word{
+  padding-right: 2px;
+}
+
+#sql-word{
+  padding-right: 17px;
 }
 
 .card-image {
-  max-width: 80;
-  max-height: 80;
+  display: inline-block;
+  justify-content: space-between;
+  max-width: 80px;
+  max-height: 80px;
+}
+
+.card-image-dimond {
+  max-width: 60px;
+  max-height: 35px;
+  display: inline-block;
+  justify-content: space-between;
 }
 
 .link-icon{
-  font-size: 45px;
+  font-size: 40px;
   margin: 5px;
 }
 
@@ -76,21 +119,21 @@ a {
   margin: 0;
 }
 
+.ul{
+  margin-left: 120px
+}
 
 @media (max-width: 960px) {
-  /* For a screen < 960px, this CSS will be read */
   .container-white {
     width: 700px;
   }
 }
 @media (max-width: 720px) {
-  /* For a screen < 720px, this CSS will be read */
   .container-white {
     width: 500px;
   }
 }
 @media (max-width: 540px) {
-  /* For a screen < 540px, this CSS will be read */
   .container-white {
     width: 300px;
   }
