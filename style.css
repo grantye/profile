@@ -52,11 +52,20 @@ a {
 }
 
 ul.inline-list {
-  padding-left: 20px;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .inline-list li {
   display: inline-block;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.inline-word li {
+  display: block;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .card-skills {
@@ -119,8 +128,8 @@ ul.inline-list {
   margin: 0;
 }
 
-.ul{
-  margin-left: 120px
+.inline-word{
+  padding-left: 0px;
 }
 
 @media (max-width: 960px) {
