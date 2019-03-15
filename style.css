@@ -35,7 +35,17 @@ a {
   width: 100px;
 }
 
-.button-blue {
+.btn-gray {
+  text-decoration: none;
+  background-color: #FFFFFF;
+  color: #C4C9D0;
+  padding: 1px 1px;
+  display: block;
+  width: 300px;
+  margin: auto;
+}
+
+.btn-blue {
   text-decoration: none;
   background-color: #C4820E;
   color: #003262;
@@ -46,7 +56,7 @@ a {
   margin: auto;
 }
 
-.button-blue:hover{
+.btn-blue:hover{
   opacity:0.8;
   color: #FFFFFF;
 }
