@@ -56,9 +56,14 @@ a {
   margin: auto;
 }
 
-.btn-blue:hover{
+.btn-blue:hover {
   opacity:0.8;
   color: #FFFFFF;
+  transition-duration: 0.3s;
+}
+
+.btn-gray:hover {
+  color: #003262;
 }
 
 ul.inline-list {
